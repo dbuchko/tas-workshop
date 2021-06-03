@@ -16,9 +16,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  *
  */
 @SpringBootApplication
-public class PcfErsDemo1Application {
+public class TasDemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PcfErsDemo1Application.class, args);
+		SpringApplication.run(TasDemoApplication.class, args);
 	}
 }

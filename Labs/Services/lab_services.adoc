@@ -31,7 +31,7 @@ Let's change that.
 
 == The Services Marketplace
 
-There are two ways to discover what services are available on Pivotal Cloud Foundry.
+There are two ways to discover what services are available on Tanzu Application Service.
 The first is available on any instance of Cloud Foundry: the CLI. Just type:
 
 ----
@@ -40,7 +40,7 @@ $ cf marketplace
 
 and you'll get a list of services, their available plans, and descriptions.
 
-The second way is specific to Pivotal Cloud Foundry's Application Manager UI.
+The second way is specific to Tanzu Application Service's Application Manager UI.
 If you haven't already, login to it by visiting \https://apps.<INSTRUCTOR-PROVIDED-DOMAIN>
 
 Click on the ``Marketplace'' link:
@@ -105,7 +105,7 @@ System-Provided:
 }
 
 {
- "VCAP_APPLICATION": { 
+ "VCAP_APPLICATION": {
   "application_id": "4770318d-0c2b-406b-915a-d3c420003309",
   "application_name": "attendees",
   "application_uris": [
@@ -146,4 +146,3 @@ image::screenshot-mysql.png[]
 As you can see from the `Application Environment Information` section, the application is now utilizing a MySQL database via the `attendees-db` service.
 +
 Note that you can do all of this from the Application Manager UI as well, by going to the Marketplace mentioned above, selecting your desired service, creating an instance of it, and binding it to your attendees application.
-
